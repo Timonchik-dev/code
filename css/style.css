@@ -1,0 +1,101 @@
+html,
+body {
+    margin: 100px;
+    padding: 20px;
+    height: 100%;
+    background-color: rgb(28, 118, 145);
+}
+
+body {
+    font-family: fantasy;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+a,
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    margin-bottom: 10px;
+    font-size: 0px;
+}
+
+.header_logotip,
+.header_slogan {
+    display: inline-block;
+    padding: 12px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.header_logotip {
+    width: 30%;
+    background-color: rgb(121, 197, 226);
+    text-align: center;
+}
+
+.header_slogan {
+    width: 30%;
+    background-color: rgb(121, 197, 226);
+    text-align: center;
+}
+
+.work-area {
+    font-size: 10;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.sidebar,
+.content {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(117, 181, 224);
+    border-radius: 10px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: rgb(117, 181, 224);
+    border-radius: 10px;
+}
+
+.sidebar__zag {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar__menu {
+    padding: 0 0 0 20px;
+}
+
+.content {
+    width: 30%;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+footer.container {
+    text-align: center;
+    background-color: bisque;
+}
